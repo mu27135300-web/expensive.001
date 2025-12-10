@@ -1,0 +1,37 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Contact — Malam Expensive Story</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><a class="brand" href="index.html">Malam Expensive Story</a><div class="nav-links"><a href="stories.html">Stories</a><a href="about.html">About</a><a href="support.html">Support</a><a href="contact.html">Contact</a></div></div></nav>
+
+
+<main class="container">
+<h1>Contact</h1>
+<p class="lead">Send me a message and I'll reply as soon as I can.</p>
+
+
+<!-- Replace mu27135300@gmail.com with the email you want to receive messages at -->
+<form action="https://formsubmit.co/mu27135300@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New message from Malam Expensive Story">
+<input type="text" name="name" placeholder="Your name" required>
+<input type="email" name="email" placeholder="Your email" required>
+<textarea name="message" placeholder="Your message" required></textarea>
+<div style="display:flex;gap:8px;margin-top:8px">
+<button class="btn btn-primary">Send message</button>
+<a class="btn btn-ghost" href="mailto:mu27135300@gmail.com">Or email me</a>
+</div>
+</form>
+</main>
+
+
+<footer class="footer"><div class="container">© <span id="year3'></span> Malam Expensive Story</div></footer>
+<script>document.getElementById('year3').textContent=new Date().getFullYear()</script>
+</body>
+</html>
